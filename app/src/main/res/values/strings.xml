@@ -8,4 +8,10 @@
     <string name="_0">0</string>
     <string name="team_b">Team B</string>
     <string name="reset">reset</string>
+    <string name="kid_a">Kid A</string>
+    <string name="school">School</string>
+    <string name="_house">house</string>
+    <string name="kid_b">Kid B</string>
+    <string name="screen">Screen</string>
+    <string name="balance">Balance</string>
 </resources>

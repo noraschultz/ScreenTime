@@ -2,8 +2,13 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Primary theme color of the app (sets background color of app bar) -->
-        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimary">#D4E157</item>
         <!-- Background color of buttons in the app -->
-        <item name="colorButtonNormal">#FF9800</item>
+        <item name="colorButtonNormal">#D4E157</item>
     </style>
+
+    <style name="OrangeButtonLightTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#FFA726</item>
+    </style>
+
 </resources>

@@ -1,4 +1,4 @@
-package com.example.android.courtcounter;
+package com.example.android.screentime;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.android.courtcounter", appContext.getPackageName());
+        assertEquals("com.example.android.screentime", appContext.getPackageName());
     }
 }

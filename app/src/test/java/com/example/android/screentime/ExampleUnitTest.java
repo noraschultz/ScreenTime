@@ -1,4 +1,4 @@
-package com.example.android.courtcounter;
+package com.example.android.screentime;
 
 import org.junit.Test;
 
