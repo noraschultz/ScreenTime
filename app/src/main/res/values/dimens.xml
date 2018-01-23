@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_title">16dp</dimen>
+    <dimen name="paddingBottom_big_score">24dp</dimen>
+    <dimen name="buttonNormal_marginBottom">8dp</dimen>
+    <dimen name="buttonNormal_marginLeft">24dp</dimen>
+    <dimen name="buttonNormal_marginRight">24dp</dimen>
+    <dimen name="textSize_big_score">56sp</dimen>
+    <dimen name="textSize_small_score">34sp</dimen>
+    <dimen name="marginBottom_small_score">8dp</dimen>
+    <dimen name="textSize_title">24sp</dimen>
+</resources>

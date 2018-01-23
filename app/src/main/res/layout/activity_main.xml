@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="MainActivity">
 
     <LinearLayout
@@ -24,10 +23,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="sans-serif-medium"
-                android:padding="16dp"
+                android:padding="@dimen/padding_title"
                 android:text="@string/kid_a"
-                android:textColor="#616161"
-                android:textSize="24sp" />
+                android:textColor="@color/color_title"
+                android:textSize="@dimen/textSize_title" />
 
             <TextView
                 android:id="@+id/kid_a_score"
@@ -35,10 +34,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="sans-serif-light"
-                android:paddingBottom="24dp"
+                android:paddingBottom="@dimen/paddingBottom_big_score"
                 android:text="@string/_0"
-                android:textColor="#000000"
-                android:textSize="56sp" />
+                android:textColor="@color/color_big_score"
+                android:textSize="@dimen/textSize_big_score" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -54,46 +53,46 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForSchoolKidA"
                         android:text="@string/school"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForHouseKidA"
                         android:text="@string/_house"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForBalanceKidA"
                         android:text="@string/balance"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold" />
 
                     <Button
                         style="@style/Widget.AppCompat.Button.Colored"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForScreenKidA"
                         android:text="@string/screen"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold"
                         android:theme="@style/OrangeButtonLightTheme" />
 
@@ -109,45 +108,45 @@
                         android:id="@+id/school_kid_a_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:onClick="addOneForSchoolKidA"
                         android:text="@string/_0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                     <TextView
                         android:id="@+id/house_kid_a_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:onClick="addOneForHouseKidA"
                         android:text="@string/_0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                     <TextView
                         android:id="@+id/balance_kid_a_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:onClick="addOneForBalanceKidA"
                         android:text="@string/_0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                     <TextView
                         android:id="@+id/screen_kid_a_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:onClick="addOneForScreenKidA"
                         android:text="@string/_0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                 </LinearLayout>
 
@@ -171,10 +170,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="sans-serif-medium"
-                android:padding="16dp"
+                android:padding="@dimen/padding_title"
                 android:text="@string/kid_b"
-                android:textColor="#616161"
-                android:textSize="24sp" />
+                android:textColor="@color/color_title"
+                android:textSize="@dimen/textSize_title" />
 
             <TextView
                 android:id="@+id/kid_b_score"
@@ -182,10 +181,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="sans-serif-light"
-                android:paddingBottom="24dp"
+                android:paddingBottom="@dimen/paddingBottom_big_score"
                 android:text="@string/_0"
-                android:textColor="#000000"
-                android:textSize="56sp" />
+                android:textColor="@color/color_button"
+                android:textSize="@dimen/textSize_big_score" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -202,49 +201,49 @@
                         android:id="@+id/school_kid_b_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:gravity="right"
                         android:onClick="addOneForSchoolKidB"
                         android:text="@string/_0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                     <TextView
                         android:id="@+id/house_kid_b_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:gravity="right"
                         android:onClick="addOneForHouseKidB"
                         android:text="@string/_0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                     <TextView
                         android:id="@+id/balance_kid_b_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:gravity="right"
                         android:onClick="addOneForBalanceKidB"
                         android:text="@string/_0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                     <TextView
                         android:id="@+id/screen_kid_b_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
+                        android:layout_marginBottom="@dimen/marginBottom_small_score"
                         android:fontFamily="sans-serif-light"
                         android:gravity="right"
                         android:onClick="addOneForScreenKidB"
-                        android:text="0"
-                        android:textColor="#000000"
-                        android:textSize="34sp" />
+                        android:text="@string/_0"
+                        android:textColor="@color/color_button"
+                        android:textSize="@dimen/textSize_small_score" />
 
                 </LinearLayout>
 
@@ -257,46 +256,46 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForSchoolKidB"
                         android:text="@string/school"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForHouseKidB"
                         android:text="@string/_house"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForBalanceKidB"
                         android:text="@string/balance"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold" />
 
                     <Button
                         style="@style/Widget.AppCompat.Button.Colored"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginBottom="@dimen/buttonNormal_marginBottom"
+                        android:layout_marginLeft="@dimen/buttonNormal_marginLeft"
+                        android:layout_marginRight="@dimen/buttonNormal_marginRight"
                         android:onClick="addOneForScreenKidB"
                         android:text="@string/screen"
-                        android:textColor="#000000"
+                        android:textColor="@color/color_button"
                         android:textStyle="bold"
                         android:theme="@style/OrangeButtonLightTheme" />
 
@@ -316,8 +315,7 @@
         android:layout_marginBottom="32dp"
         android:onClick="reset"
         android:text="@string/reset"
-        android:textColor="#000000"
-        android:textSize="14sp"
+        android:textColor="@color/color_button"
         android:textStyle="bold" />
 
 </RelativeLayout>
